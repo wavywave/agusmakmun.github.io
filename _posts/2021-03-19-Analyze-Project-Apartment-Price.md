@@ -929,7 +929,7 @@ sns.barplot(data=df, x="연도", y="평당분양가격")
 
 
 
-![png](output_26_1.png)
+<img width="405" alt="output_26_1" src="https://user-images.githubusercontent.com/77723966/112034375-c1005a80-8b81-11eb-97ac-f7cb152d8a6c.png">
 
 
 
@@ -949,7 +949,8 @@ sns.heatmap(table, cmap="Blues", annot=True, fmt=".0f")
 
 
 
-![png](output_27_1.png)
+<img width="679" alt="output_27_1" src="https://user-images.githubusercontent.com/77723966/112034388-c52c7800-8b81-11eb-8c8c-74650437bd4e.png">
+
 
 
 
@@ -969,7 +970,7 @@ plt.legend(bbox_to_anchor=(1.02, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](output_28_1.png)
+<img width="815" alt="output_28_1" src="https://user-images.githubusercontent.com/77723966/112034400-c8bfff00-8b81-11eb-8763-4c09ca1470c0.png">
 
 
 ## 지역별데이터
@@ -988,7 +989,7 @@ sns.barplot(data=df, x="지역명", y="평당분양가격")
 
 
 
-![png](output_30_1.png)
+<img width="740" alt="output_30_1" src="https://user-images.githubusercontent.com/77723966/112034409-cc538600-8b81-11eb-8571-e4984f2627ec.png">
 
 
 
@@ -1006,7 +1007,7 @@ sns.violinplot(data=df, x="지역명", y="평당분양가격")
 
 
 
-![png](output_31_1.png)
+<img width="1187" alt="output_31_1" src="https://user-images.githubusercontent.com/77723966/112034422-d07fa380-8b81-11eb-9e86-6f3872247542.png">
 
 
 
@@ -1025,7 +1026,8 @@ plt.legend(bbox_to_anchor=(1.02, 1), loc=2, borderaxespad=0.)
 
 
 
-![png](output_32_1.png)
+<img width="818" alt="output_32_1" src="https://user-images.githubusercontent.com/77723966/112034447-d5dcee00-8b81-11eb-8ae2-bbb8f8c1b055.png">
+
 
 
 - 5.1 전국데이터 확인결과 해가 지나갈 수록 아파트 분양가격이 상승하고 있음을 확인할 수 있다.
@@ -1095,8 +1097,8 @@ df_2020.groupby(["규모구분"])["평당분양가격"].mean().plot.bar(rot=30)
 
 
 
+<img width="389" alt="output_37_1" src="https://user-images.githubusercontent.com/77723966/112034478-dc6b6580-8b81-11eb-974f-31bc3b536767.png">
 
-![png](output_37_1.png)
 
 
 - 60㎡이하의 아파트의 평균가격이 60㎡초과 85㎡이하의 아파트의 평균가격보다 높음을 확인할 수 있다.
