@@ -395,7 +395,8 @@ sns.histplot(data=df, x='age')
 
 
 
-![png](output_13_1.png)
+![output_13_1](https://user-images.githubusercontent.com/77723966/112032863-2d7a5a00-8b80-11eb-9148-b6e9aa3907e3.png)
+
 
 
 
@@ -413,7 +414,7 @@ sns.histplot(data=df, x='age', hue='DEATH_EVENT')
 
 
 
-![png](output_14_1.png)
+![output_14_1](https://user-images.githubusercontent.com/77723966/112032882-310de100-8b80-11eb-976d-d68fb45806ad.png)
 
 
 
@@ -429,7 +430,7 @@ sns.histplot(data=df, x='ejection_fraction', hue='DEATH_EVENT', kde=True)
 
 
 
-![png](output_15_1.png)
+![output_15_1](https://user-images.githubusercontent.com/77723966/112032901-34a16800-8b80-11eb-87d2-56c382c51f7e.png)
 
 
 
@@ -447,7 +448,7 @@ sns.histplot(data=df, x='platelets', hue='DEATH_EVENT')
 
 
 
-![png](output_16_1.png)
+![output_16_1](https://user-images.githubusercontent.com/77723966/112032907-379c5880-8b80-11eb-983a-871f7ca15a0d.png)
 
 
 #### 범주형 데이터
@@ -467,7 +468,8 @@ sns.boxplot(data=df, x='DEATH_EVENT', y='ejection_fraction')
 
 
 
-![png](output_18_1.png)
+![output_18_1](https://user-images.githubusercontent.com/77723966/112032922-3bc87600-8b80-11eb-9e50-b422b85e9e5d.png)
+
 
 
 
@@ -483,7 +485,7 @@ sns.violinplot(data=df, x='DEATH_EVENT', y='ejection_fraction', hue='smoking')
 
 
 
-![png](output_19_1.png)
+![output_19_1](https://user-images.githubusercontent.com/77723966/112032931-3ec36680-8b80-11eb-9762-0d9e4d5707f7.png)
 
 
 ## 모델 학습을 위한 전처리
@@ -848,7 +850,7 @@ plt.show()
 ```
 
 
-![png](output_34_0.png)
+![output_34_0](https://user-images.githubusercontent.com/77723966/112032966-46830b00-8b80-11eb-841a-f0895a06f0f9.png)
 
 
 - time 이 가장 중요요소로 나타나지만 time과 death_event경우 밀접한 상관관계를 가진다. 즉 correlation이 높음.
@@ -929,7 +931,7 @@ plt.show()
 ```
 
 
-![png](output_40_0.png)
+![output_40_0](https://user-images.githubusercontent.com/77723966/112032977-4b47bf00-8b80-11eb-94bd-fbb2d5acbd87.png)
 
 
 - time이 빠져서 정확도가 줄었들었음.
@@ -948,7 +950,8 @@ sns.jointplot(data=df, x='ejection_fraction', y='serum_creatinine', hue='DEATH_E
 
 
 
-![png](output_42_1.png)
+![output_42_1](https://user-images.githubusercontent.com/77723966/112032984-4e42af80-8b80-11eb-9aa9-041688a53e97.png)
+
 
 
 - 혈중 크레아틴 레벨과 박출계수를 같이 사용시 더 잘 구분됨을 알 수 있다.
@@ -973,7 +976,7 @@ plot_precision_recall_curve(model_xgb, X_test, y_test, ax=ax)
 
 
 
-![png](output_45_1.png)
+![output_45_1](https://user-images.githubusercontent.com/77723966/112032998-513da000-8b80-11eb-9feb-7801417bf10d.png)
 
 
 
@@ -994,7 +997,8 @@ plot_roc_curve(model_xgb, X_test, y_test, ax=ax)
 
 
 
-![png](output_46_1.png)
+![output_46_1](https://user-images.githubusercontent.com/77723966/112033015-54d12700-8b80-11eb-8852-54d8bef2c3a9.png)
+
 
 
 - 정확도 76-77 auc의 경우 77-79의 모델이 나왔다.
