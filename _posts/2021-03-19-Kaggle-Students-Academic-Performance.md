@@ -482,7 +482,8 @@ sns.histplot(data=df, x='raisedhands',hue='Class', hue_order=['L', 'M', 'H'], kd
 
 
 
-![png](output_15_1.png)
+![output_15_1](https://user-images.githubusercontent.com/77723966/112032514-d1afd100-8b7f-11eb-8f03-f599408d2a9a.png)
+
 
 
 - 손을 드는 횟수는 적거나 많거나 양쪽으로 나뉘어 나타나는데 Class 구분을 잘 반영하고 있다. 다만 수업시간에 손을 적게들어도, 많이들어도 중위권에 들어간 학생이 있는것으로 보아 완벽히 구분해내지는 못함을 보여준다.
@@ -500,7 +501,8 @@ sns.histplot(data=df, x='VisITedResources',hue='Class', hue_order=['L', 'M', 'H'
 
 
 
-![png](output_17_1.png)
+![output_17_1](https://user-images.githubusercontent.com/77723966/112032529-d6748500-8b7f-11eb-9c63-7bb6bf0984d8.png)
+
 
 
 - raisedhands와 비슷한 양상으로 역시 Class 구분을 잘 반영하고 있다. 
@@ -518,7 +520,7 @@ sns.histplot(data=df, x='AnnouncementsView',hue='Class', hue_order=['L', 'M', 'H
 
 
 
-![png](output_19_1.png)
+![output_19_1](https://user-images.githubusercontent.com/77723966/112032537-da080c00-8b7f-11eb-9499-0110cdf22248.png)
 
 
 - 성적이 낮은 학생들의 구분은 쉽지만 중위권과 상위권 학생들의 구분이 모호함. 
@@ -536,7 +538,7 @@ sns.histplot(data=df, x='Discussion',hue='Class', hue_order=['L', 'M', 'H'], kde
 
 
 
-![png](output_21_1.png)
+![output_21_1](https://user-images.githubusercontent.com/77723966/112032561-de342980-8b7f-11eb-9f28-cec63bff141f.png)
 
 
 - 다른 지표 대비 특별한 경향성이 보이지 않음.(하위권 학생들도 참여율이 나름 있고, 상위권 학생들도 두 양상으로 나타난다.)
@@ -555,7 +557,8 @@ sns.jointplot(data=df, x='VisITedResources', y='raisedhands', hue='Class', hue_o
 
 
 
-![png](output_23_1.png)
+![output_23_1](https://user-images.githubusercontent.com/77723966/112032574-e1c7b080-8b7f-11eb-8a74-1ed37d7fd403.png)
+
 
 
 - 중위권과 상위권 구분은 여전히 어렵지만 하위권과 중위권은 jointplot, 2차원으로 확인시 더 분류할 수 있다..
@@ -573,7 +576,8 @@ sns.pairplot(df, hue='Class', hue_order=['L','M','H'])
 
 
 
-![png](output_25_1.png)
+![output_25_1](https://user-images.githubusercontent.com/77723966/112032608-eb511880-8b7f-11eb-8098-08db7a06247a.png)
+
 
 
 ### 범주형 데이터
@@ -591,7 +595,7 @@ sns.countplot(data=df, x='Class', order=['L', 'M', 'H'])
 
 
 
-![png](output_27_1.png)
+![output_27_1](https://user-images.githubusercontent.com/77723966/112032651-f5731700-8b7f-11eb-9a4e-14995b9daf92.png)
 
 
 
@@ -609,7 +613,7 @@ sns.countplot(data=df, x='gender', hue='Class', hue_order=['L', 'M', 'H'])
 
 
 
-![png](output_28_1.png)
+![output_28_1](https://user-images.githubusercontent.com/77723966/112032664-f9069e00-8b7f-11eb-9b29-b0d9128de9ee.png)
 
 
 
@@ -622,7 +626,7 @@ plt.show()
 ```
 
 
-![png](output_29_0.png)
+![output_29_0](https://user-images.githubusercontent.com/77723966/112032677-fc9a2500-8b7f-11eb-8f6f-45cd2eb83c36.png)
 
 
 
@@ -641,7 +645,7 @@ sns.countplot(data=df, x='ParentAnsweringSurvey', hue='Class', hue_order=['L', '
 
 
 
-![png](output_30_1.png)
+![output_30_1](https://user-images.githubusercontent.com/77723966/112032696-002dac00-8b80-11eb-8d36-eb449adc80ca.png)
 
 
 
@@ -654,7 +658,8 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![output_31_0](https://user-images.githubusercontent.com/77723966/112032709-0459c980-8b80-11eb-8129-57364f546cf5.png)
+
 
 
 ### 범주형 대상 Class을 수치로 바꾸어 표현
@@ -693,8 +698,7 @@ plt.bar(gb_gender.index, gb_gender)
 
 
 
-
-![png](output_35_1.png)
+![output_35_1](https://user-images.githubusercontent.com/77723966/112032730-091e7d80-8b80-11eb-8ef1-8a6b9b53c2a1.png)
 
 
 
@@ -711,7 +715,7 @@ plt.barh(gb_Topic.index, gb_Topic)
 
 
 
-![png](output_36_1.png)
+![output_36_1](https://user-images.githubusercontent.com/77723966/112032741-0c196e00-8b80-11eb-9734-f74465b3c7ef.png)
 
 
 ## 데이터 전처리
@@ -1066,7 +1070,8 @@ plt.show()
 ```
 
 
-![png](output_53_0.png)
+![output_53_0](https://user-images.githubusercontent.com/77723966/112032764-13d91280-8b80-11eb-96d9-b2fe7aff440e.png)
+
 
 
 - 결석일수 7일 미만, 부모응답이 높고, 보호자가 어머니이며, 사우디아라비아 국적,출생이며 수학을 선택하면 
@@ -1082,7 +1087,8 @@ plt.show()
 ```
 
 
-![png](output_55_0.png)
+![output_55_0](https://user-images.githubusercontent.com/77723966/112032771-16d40300-8b80-11eb-842d-0ecd7ee35083.png)
+
 
 
 
@@ -1096,7 +1102,7 @@ plt.show()
 ```
 
 
-![png](output_56_0.png)
+![output_56_0](https://user-images.githubusercontent.com/77723966/112032785-1a678a00-8b80-11eb-887c-41cdda5e55c2.png)
 
 
 - 결석일수 7일 미만, 보호자가 어머니이며, 손을 많이 들고 공지를 많이 확인 할 경우 성적이 높음.
