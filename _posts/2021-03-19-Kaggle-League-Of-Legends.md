@@ -1028,7 +1028,7 @@ sns.heatmap(df.corr()[['blueWins']], annot=True)
 
 
 
-![png](output_11_1.png)
+![output_11_1](https://user-images.githubusercontent.com/77723966/112033656-ffe1e080-8b80-11eb-9c3c-ffac75f35ffc.png)
 
 
 - 전체 골드 수급량, 골드-경험치 수급이 승리로 이어질 가능성이 높다.
@@ -2843,7 +2843,8 @@ sns.histplot(data=df, x='blueGoldDiff', hue='blueWins', palette='RdBu', kde=True
 
 
 
-![png](output_15_1.png)
+![output_15_1](https://user-images.githubusercontent.com/77723966/112033686-0a9c7580-8b81-11eb-85ac-ff8e3580c213.png)
+
 
 
 - blueGoldDiff 변수에 따라 승패가 명확하게 갈린다.
@@ -2861,7 +2862,8 @@ sns.histplot(data=df, x='blueKills', hue='blueWins', palette='RdBu', kde=True, b
 
 
 
-![png](output_17_1.png)
+![output_17_1](https://user-images.githubusercontent.com/77723966/112033696-0e2ffc80-8b81-11eb-9094-e43c1290bb32.png)
+
 
 
 - blue kills 어느정도 상관성이 있음
@@ -2879,7 +2881,8 @@ sns.jointplot(data=df, x='blueKills', y='blueGoldDiff', hue='blueWins')
 
 
 
-![png](output_19_1.png)
+![output_19_1](https://user-images.githubusercontent.com/77723966/112033710-11c38380-8b81-11eb-8538-cd078538ec2f.png)
+
 
 
 - 두 가지 feature가 상보적이다. 상관성이 높다.
@@ -2897,7 +2900,8 @@ sns.jointplot(data=df, x='blueExperienceDiff', y='blueGoldDiff', hue='blueWins')
 
 
 
-![png](output_21_1.png)
+![output_21_1](https://user-images.githubusercontent.com/77723966/112033727-15570a80-8b81-11eb-9b7b-cccbc8a2f483.png)
+
 
 
 - 골드 수급과 경험치 수급은 상관관계가 아주 높다. (당연하게도)
@@ -2915,7 +2919,8 @@ sns.countplot(data=df, x='blueDragons', hue='blueWins', palette='RdBu')
 
 
 
-![png](output_23_1.png)
+![output_23_1](https://user-images.githubusercontent.com/77723966/112033754-19832800-8b81-11eb-9d62-6091dcad865b.png)
+
 
 
 
@@ -2931,7 +2936,8 @@ sns.countplot(data=df, x='redDragons', hue='blueWins', palette='RdBu')
 
 
 
-![png](output_24_1.png)
+![output_24_1](https://user-images.githubusercontent.com/77723966/112033765-1d16af00-8b81-11eb-9fd6-abf642485f02.png)
+
 
 
 - blue가 Dragons을 죽였을때 승리확률이 높음
@@ -2950,7 +2956,8 @@ sns.countplot(data=df, x='blueFirstBlood', hue='blueWins',palette='RdBu')
 
 
 
-![png](output_26_1.png)
+![output_26_1](https://user-images.githubusercontent.com/77723966/112033779-2142cc80-8b81-11eb-848e-70bce4c89341.png)
+
 
 
 - blue 첫 킬을 달성한다면 blue가 이기는 사건이 많음. 반대도 마찬가지, 균형이 맞는 변수.
@@ -3571,7 +3578,8 @@ plt.show()
 ```
 
 
-![png](output_43_0.png)
+![output_43_0](https://user-images.githubusercontent.com/77723966/112033826-2d2e8e80-8b81-11eb-9f91-4d874e33cde5.png)
+
 
 
 ### xgboost 모델
@@ -3584,7 +3592,8 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![output_45_0](https://user-images.githubusercontent.com/77723966/112033843-30c21580-8b81-11eb-9996-c85fbdeadb8c.png)
+
 
 
 
