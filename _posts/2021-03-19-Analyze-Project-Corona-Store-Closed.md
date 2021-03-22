@@ -1287,7 +1287,8 @@ sns.violinplot(data=df_compare, x='폐업연도', y="영업일수")
 
 
 
-![png](output_42_1.png)
+<img width="629" alt="output_42_1" src="https://user-images.githubusercontent.com/77723966/112034566-f6a54380-8b81-11eb-8d7d-9908b8bbf8a8.png">
+
 
 
 * 영업일수의 평균과 중간값이 2017년을 기준으로 꾸준히 짧아지는것을 확인할 수 있다.
@@ -1755,7 +1756,7 @@ g.plot.bar(rot=30, figsize=(10,3))
 
 
 
-![png](output_53_1.png)
+<img width="630" alt="output_53_1" src="https://user-images.githubusercontent.com/77723966/112034606-00c74200-8b82-11eb-91b7-7da9f81909fa.png">
 
 
 * 2020년에 영업을 시작한 업장의 갯수는 2016년이래 최소, 다른 년도와 비교했을때 미용업, 실내골프장, 여행업, 노래방, 방문판매업, PC게임방의   비율이 큰폭으로 줄었음을 확인할 수 있다. 이처럼 특정 업종의 개업이 큰폭으로 하락한 것은 코로나가 이에 영향을 끼쳤음을 추측할 수 있다. 
@@ -2179,7 +2180,8 @@ sns.heatmap(t, cmap="Blues", annot=True, fmt=".0f")
 
 
 
-![png](output_72_1.png)
+<img width="706" alt="output_72_1" src="https://user-images.githubusercontent.com/77723966/112034633-09b81380-8b82-11eb-8296-dd153e3e9767.png">
+
 
 
 * 연도를 불문하고 강남구, 마포구, 송파구, 서초구, 영등포구 가 순위에 들어온다.
@@ -2240,7 +2242,8 @@ sns.barplot(data=d2g, x="지역구", y="사업장명")
 
 
 
-![png](output_75_1.png)
+<img width="902" alt="output_75_1" src="https://user-images.githubusercontent.com/77723966/112034651-0d4b9a80-8b82-11eb-82b8-a894cf593d71.png">
+
 
 
 
