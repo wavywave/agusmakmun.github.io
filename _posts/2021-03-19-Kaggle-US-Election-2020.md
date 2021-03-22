@@ -2178,7 +2178,8 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+![output_30_0](https://user-images.githubusercontent.com/77723966/112032205-7d0c5600-8b7f-11eb-888f-0d1f6bd3349a.png)
+
 
 
 - 전처리가 덜 되었음. 민주당을 뽑은 인원이 공화당에도 큰 영향을 미친다는 것은 인구자체에 영향을 받아 다중공선성이 일어나고 있다는 증거.
@@ -2202,7 +2203,7 @@ plt.show()
 ```
 
 
-![png](output_33_0.png)
+![output_33_0](https://user-images.githubusercontent.com/77723966/112032235-83023700-8b7f-11eb-9dc5-e895ab76e3dc.png)
 
 
 - 인구가 많은 county일수록 민주당 지지, 백인은 공화동 유색인종은민주당 
@@ -2221,7 +2222,8 @@ sns.jointplot(data=df_norm, x='White', y='Pres_REP', kind='hex')
 
 
 
-![png](output_35_1.png)
+![output_35_1](https://user-images.githubusercontent.com/77723966/112032250-87c6eb00-8b7f-11eb-9688-65ee23cfb683.png)
+
 
 
 - 단순히 백인비율이 많다고 공화당 지지가 높지는 않음. 아마 직업의 영향이 반영된듯 하다.
@@ -2245,7 +2247,8 @@ sns.jointplot(data=df_norm, x='White', y='Pres_REP', hue='Professional')
 
 
 
-![png](output_37_2.png)
+![output_37_2](https://user-images.githubusercontent.com/77723966/112032272-8c8b9f00-8b7f-11eb-9761-308f0da19fd8.png)
+
 
 
 - 아래로 내려갈수록(공화당 지지가 낮을수록) 전문직비율이 높음.
@@ -2263,7 +2266,8 @@ sns.jointplot(data=df_norm, x='Black', y='Pres_DEM', alpha=0.2)
 
 
 
-![png](output_39_1.png)
+![output_39_1](https://user-images.githubusercontent.com/77723966/112032291-91e8e980-8b7f-11eb-825c-9d4fd0b12246.png)
+
 
 
 - 상관성은 확실히 있으나 위의 plot과 마찬가지로 black 비율이 낮다고 민주당 지지도 낮지는 않음.
@@ -3066,7 +3070,7 @@ plt.grid()
 ```
 
 
-![png](output_66_0.png)
+![output_66_0](https://user-images.githubusercontent.com/77723966/112032348-9dd4ab80-8b7f-11eb-872d-c066f3399c7a.png)
 
 
 
@@ -3181,7 +3185,8 @@ plt.show()
 ```
 
 
-![png](output_76_0.png)
+![output_76_0](https://user-images.githubusercontent.com/77723966/112032389-a9c06d80-8b7f-11eb-80db-65dc4c36e7cf.png)
+
 
 
 
