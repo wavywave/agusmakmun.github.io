@@ -508,7 +508,8 @@ sns.countplot(data=df.fillna('n/a'), y='manufacturer', order=df.fillna('n/a')['m
 
 
 
-![png](output_17_1.png)
+![output_17_1](https://user-images.githubusercontent.com/77723966/112030636-cf4c7780-8b7d-11eb-9d2b-2ac117cbd00f.png)
+
 
 
 
@@ -563,7 +564,8 @@ sns.countplot(data=df.fillna('n/a'), y='transmission', order=df.fillna('n/a')['t
 
 
 
-![png](output_21_1.png)
+![output_21_1](https://user-images.githubusercontent.com/77723966/112030681-da9fa300-8b7d-11eb-91aa-8d28e957bde8.png)
+
 
 
 
@@ -579,7 +581,8 @@ sns.countplot(data=df.fillna('n/a'), y='drive', order=df.fillna('n/a')['drive'].
 
 
 
-![png](output_22_1.png)
+![output_22_1](https://user-images.githubusercontent.com/77723966/112030696-decbc080-8b7d-11eb-8224-c39132607ca2.png)
+
 
 
 
@@ -595,7 +598,8 @@ sns.countplot(data=df.fillna('n/a'), y='size', order=df.fillna('n/a')['size'].va
 
 
 
-![png](output_23_1.png)
+![output_23_1](https://user-images.githubusercontent.com/77723966/112030720-e3907480-8b7d-11eb-944a-2e0cf2cec69c.png)
+
 
 
 
@@ -611,7 +615,8 @@ sns.countplot(data=df.fillna('n/a'), y='type', order=df.fillna('n/a')['type'].va
 
 
 
-![png](output_24_1.png)
+![output_24_1](https://user-images.githubusercontent.com/77723966/112030735-e723fb80-8b7d-11eb-9cbb-e660ffa19902.png)
+
 
 
 
@@ -627,7 +632,8 @@ sns.countplot(data=df.fillna('n/a'), y='paint_color', order=df.fillna('n/a')['pa
 
 
 
-![png](output_25_1.png)
+![output_25_1](https://user-images.githubusercontent.com/77723966/112030747-eb501900-8b7d-11eb-824c-749833cba526.png)
+
 
 
 ### 수치형 데이터 분석
@@ -661,7 +667,8 @@ sns.rugplot(data=df, x='odometer', height=1)
 
 
 
-![png](output_28_1.png)
+![output_28_1](https://user-images.githubusercontent.com/77723966/112030783-f3a85400-8b7d-11eb-8f1c-894815864c2a.png)
+
 
 
 
@@ -677,7 +684,8 @@ sns.histplot(data=df, x='age', bins=20, kde=True)
 
 
 
-![png](output_29_1.png)
+![output_29_1](https://user-images.githubusercontent.com/77723966/112030799-f86d0800-8b7d-11eb-8590-38ed07f3a82d.png)
+
 
 
 ## 데이터 전처리
@@ -696,8 +704,7 @@ sns.boxplot(data=df.fillna('n/a'), x='manufacturer', y='price')
 
 
 
-
-![png](output_32_1.png)
+![output_32_1](https://user-images.githubusercontent.com/77723966/112030825-fe62e900-8b7d-11eb-851c-9d417a03516b.png)
 
 
 - 아웃라이어가 심각
@@ -737,7 +744,8 @@ plt.plot(range(len(counts)), counts)
 
 
 
-![png](output_36_1.png)
+![output_36_1](https://user-images.githubusercontent.com/77723966/112030842-03c03380-8b7e-11eb-90d5-a661505fa958.png)
+
 
 
 
@@ -785,8 +793,8 @@ plt.plot(range(len(counts)), counts)
 
 
 
+![output_39_1](https://user-images.githubusercontent.com/77723966/112030884-0f135f00-8b7e-11eb-807c-1ab2e5c1963e.png)
 
-![png](output_39_1.png)
 
 
 
@@ -805,7 +813,8 @@ plt.plot(range(len(counts[:20])), counts[:20])
 
 
 
-![png](output_40_1.png)
+![output_40_1](https://user-images.githubusercontent.com/77723966/112030898-13d81300-8b7e-11eb-930c-d1c65241f36e.png)
+
 
 
 
@@ -1060,7 +1069,8 @@ sns.boxplot(data=df, x='manufacturer', y='price')
 
 
 
-![png](output_57_1.png)
+![output_57_1](https://user-images.githubusercontent.com/77723966/112030935-1e92a800-8b7e-11eb-9fec-7e273416271c.png)
+
 
 
 - 전체적인 범위가 다르지 않지만 평균 값들을 비교할 만하다.
@@ -1079,7 +1089,8 @@ sns.boxplot(data=df, x='model', y='price')
 
 
 
-![png](output_59_1.png)
+![output_59_1](https://user-images.githubusercontent.com/77723966/112030949-23575c00-8b7e-11eb-92ba-6d42e05d4794.png)
+
 
 
 - 같은 모델이라도 상태, 주행거리에 따라 가격이 크게 달라짐. 물론 모델마다 다르기도함.
@@ -1097,7 +1108,8 @@ sns.heatmap(df.corr(), annot=True, cmap='YlOrRd')
 
 
 
-![png](output_61_1.png)
+![output_61_1](https://user-images.githubusercontent.com/77723966/112030962-281c1000-8b7e-11eb-9df7-ca614a4ab5e3.png)
+
 
 
 - 상관성은 높으나 주행거리, 연식 둘다 가격에 역방향으로 영향을 줌.
@@ -4059,7 +4071,7 @@ plt.plot([0,60000], [0,60000], 'r-')
 
 
 
-![png](output_76_1.png)
+![output_76_1](https://user-images.githubusercontent.com/77723966/112031057-4124c100-8b7e-11eb-97e8-3daea7c437b7.png)
 
 
 - 실제로 값이 엄청 저렴한데 높게 책정하는 경우가 있고 전체적으로 underestimate 하는 경향이 있다.
@@ -4082,7 +4094,7 @@ plt.xlim(-100, 100)
 
 
 
-![png](output_78_1.png)
+![output_78_1](https://user-images.githubusercontent.com/77723966/112031079-46820b80-8b7e-11eb-83a0-37b2f9fd8cb6.png)
 
 
 - 위 결론과 마찬가지로 underestimate 되는 경향이 주로 보이고, overestimate되는 값은 오차율이 크다.
@@ -4101,5 +4113,5 @@ plt.plot([0,60000], [0,60000], 'r-')
 
 
 
-![png](output_80_1.png)
+![output_80_1](https://user-images.githubusercontent.com/77723966/112031099-4b46bf80-8b7e-11eb-9bee-8299d34d3f60.png)
 
