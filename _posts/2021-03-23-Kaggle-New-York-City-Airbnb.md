@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kaggle - Heart Failure Prediction"
+title:  "Kaggle - New York City Airbnb"
 description: "캐글 데이터 분석"
 author: SeungRok OH
 categories: [Kaggle]
